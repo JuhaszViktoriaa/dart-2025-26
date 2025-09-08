@@ -21,9 +21,11 @@ print("az iskola ir.szama, utcaja, telepulese, hazszama: $iranyitoszam, $utca, $
   int tizedikesek = masosztalyok * atlfo;
   int tizenegyedikesek = masosztalyok * atlfo;
   int tizenkettedikesek = masosztalyok * atlfo;
+  int osszesen = kilencedikesekglobalisan + tizedikesek + tizenegyedikesek + tizenkettedikesek;
   
   print("9. évfolyam diákjai: $kilencedikesekglobalisan fő");
   print("10. évfolyam diákjai: $tizedikesek fő");
   print("11. évfolyam diákjai: $tizenegyedikesek fő");
   print("12. évfolyam diákjai: $tizenkettedikesek fő");
+  print("az összes diáklétszám: $osszesen fő.");
 }
